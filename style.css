@@ -1,0 +1,55 @@
+/* 5 sections total - header, hero, main, down, footer*/
+body {
+    background-color: 
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    flex-direction: column
+}
+
+.illustration {
+    display: flex;
+    flex-direction: row;
+}
+
+.down {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.action {
+    display: flex;
+    flex-direction: row;
+}
+
+.blue {
+    display: flex;
+    flex-direction: column;
+}
