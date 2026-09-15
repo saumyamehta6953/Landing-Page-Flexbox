@@ -110,14 +110,14 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 72px;
+    margin-bottom: 108px;
 }
 
 .top-heading {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    padding: 32px;
+    padding: 48px;
 }
 
 .illustration {
@@ -125,7 +125,7 @@ ul {
     flex-direction: row;
     justify-content: center;
     width: 600px;
-    gap: 32px;
+    gap: 48px;
 }
 
 .empty-box {
@@ -148,15 +148,74 @@ ul {
     flex-direction: column;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    padding: 48px 204px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: auto;
+    gap: 8px;
+    border: 1px solid black;
+    
+}
+
+.inspire {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 800px;
+    margin-left: 8px;
+}
+
+.author {
+    font-style:normal;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: 60px;
+}
+
 
 .action {
     display: flex;
     flex-direction: row;
+    margin: 96px;
+    margin-left: 108px;
+    margin-right: 108px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    height: 150px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .blue {
     display: flex;
     flex-direction: column;
+    color: white;
+    gap: 4px;
+}
+
+.call {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sign {
+    background-color: #3882F6;
+    color: white;
+    font-size: 16px;
+    padding: 8px 32px;
+    border-radius: 5px;
+    border: 2px solid white;
+    font-weight: bold;
 }
 
 .footer {
