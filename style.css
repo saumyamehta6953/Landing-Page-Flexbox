@@ -15,7 +15,8 @@ body {
     flex-direction: row;
     background-color: #1F2937;
     justify-content: space-between;
-    padding: 16px 64px;
+    padding: 16px 136px;
+    flex: 1 1 auto;
 }
 
 .header-left {
@@ -34,6 +35,7 @@ body {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 .link-one,
@@ -51,19 +53,19 @@ ul {
 .hero {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     background-color:  #1F2937;
-    height: 200px;
+    height: 300px;
     width: 90%;
-    padding: 16px 64px;
-    padding-bottom: 32px;;
-    gap: 72px;
+    padding: 64px 64px;
+    gap: 32px;
 }
 
 .hero-section {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 450px;
+    height: 200px;
 }
 
 .hero-title {
@@ -91,7 +93,8 @@ ul {
     font-size: 18px;
     color: #E5E7EB;
     background-color: grey;
-    width: 600px;
+    width: 500px;
+    height: 200px;
     display: flex;
     flex-direction: row;
     justify-content:center;
@@ -105,12 +108,40 @@ ul {
 
 .top {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 72px;
+}
+
+.top-heading {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 32px;
 }
 
 .illustration {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    width: 600px;
+    gap: 32px;
+}
+
+.empty-box {
+    width: 150px;
+    height: 150px;
+    border: 4px #3882F6 solid;
+    border-radius: 10px;
+}
+
+.box-text {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
 }
 
 .down {
